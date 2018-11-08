@@ -1,0 +1,27 @@
+uuid: eccf7803-4d15-46ad-97b7-32ac33c3aecb
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.preview
+    - field.field.paragraph.twitter.field_media
+    - paragraphs.paragraphs_type.twitter
+_core:
+  default_config_hash: 6JtNRZ0IUOGp0S39Gt-6jEjAiXRWrcVn_QC0DPgVmeI
+id: paragraph.twitter.preview
+targetEntityType: paragraph
+bundle: twitter
+mode: preview
+content:
+  field_media:
+    type: entity_reference_entity_view
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: paragraph_preview
+      link: false
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  uid: true

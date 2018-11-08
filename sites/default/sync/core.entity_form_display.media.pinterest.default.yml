@@ -1,0 +1,31 @@
+uuid: 7a739b94-b77e-4678-9b15-3fbc4329ce74
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.pinterest.field_url
+    - media_entity.bundle.pinterest
+  module:
+    - link
+_core:
+  default_config_hash: hY6ct1V2THCcragS-eXQzknM0MjiN9GwJRDIJAhtJfs
+id: media.pinterest.default
+targetEntityType: media
+bundle: pinterest
+mode: default
+content:
+  field_url:
+    weight: 0
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+hidden:
+  created: true
+  langcode: true
+  moderation_state: true
+  name: true
+  path: true
+  uid: true

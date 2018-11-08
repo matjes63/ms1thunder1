@@ -1,0 +1,11 @@
+uuid: 29642644-9814-4a87-ac43-e61ce8ab8ee6
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: iTVydmp9NP-iktBEkOtP0GjnnRwFoomqmrrft-uhZYs
+id: image
+label: Image
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

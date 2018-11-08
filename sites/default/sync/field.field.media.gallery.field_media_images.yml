@@ -1,0 +1,28 @@
+uuid: c5b97f16-59e6-4b2c-96d9-58f8602f354c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_images
+    - media_entity.bundle.gallery
+    - media_entity.bundle.image
+_core:
+  default_config_hash: EEttnZW68uH0YJGxUwPpg6P0IxYSd6NELu7HO2NVjEc
+id: media.gallery.field_media_images
+field_name: field_media_images
+entity_type: media
+bundle: gallery
+label: 'Media Images'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+field_type: entity_reference

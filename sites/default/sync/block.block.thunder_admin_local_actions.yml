@@ -1,0 +1,20 @@
+uuid: a3f73337-c0f6-43c0-a21d-f3480a3d894f
+langcode: en
+status: true
+dependencies:
+  theme:
+    - thunder_admin
+_core:
+  default_config_hash: 5Rd-xzixOgLHawxwHtjZdefCzvxPFbTibbdtTRBzAnQ
+id: thunder_admin_local_actions
+theme: thunder_admin
+region: content
+weight: -10
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

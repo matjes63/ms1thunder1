@@ -1,0 +1,31 @@
+uuid: 90217d76-6b47-4a56-ba54-63b431cfb151
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.instagram.field_media
+    - paragraphs.paragraphs_type.instagram
+  module:
+    - inline_entity_form
+_core:
+  default_config_hash: zoQWarw4XPy_9LKw-eC_-MfuFUuI5RA67V-5fgGlZo8
+id: paragraph.instagram.default
+targetEntityType: paragraph
+bundle: instagram
+mode: default
+content:
+  field_media:
+    weight: 0
+    settings:
+      form_mode: default
+      override_labels: false
+      label_singular: ''
+      label_plural: ''
+    third_party_settings: {  }
+    type: inline_entity_form_simple
+    region: content
+hidden:
+  created: true
+  moderation_state: true
+  status: true
+  uid: true

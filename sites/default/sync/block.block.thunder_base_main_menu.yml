@@ -1,0 +1,26 @@
+uuid: 4187e503-8244-4720-a9b1-a9578f1cfc52
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - thunder_base
+_core:
+  default_config_hash: KTq-YMoHZohfQaTto3A_LtSlhTtP7qC3BctmhF21s0I
+id: thunder_base_main_menu
+theme: thunder_base
+region: primary_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+visibility: {  }

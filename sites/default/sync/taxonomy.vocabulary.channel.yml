@@ -1,0 +1,11 @@
+uuid: e20e7948-685d-489e-9090-66bf6cec3bdd
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Jsce2DHV7yGMCcXIVMr07Auyx1YEs6tB1pD1S6ZslHU
+name: Channel
+vid: channel
+description: ''
+hierarchy: 1
+weight: 0

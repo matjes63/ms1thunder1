@@ -1,0 +1,21 @@
+uuid: c68b7f33-d121-4b59-8dcf-cedd0ab54ed8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_copyright
+    - media_entity.bundle.video
+_core:
+  default_config_hash: iUEq2A0dXwHiXY7qlkywRUmngY_veHt2L9uV7-yVPKk
+id: media.video.field_copyright
+field_name: field_copyright
+entity_type: media
+bundle: video
+label: Copyright
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

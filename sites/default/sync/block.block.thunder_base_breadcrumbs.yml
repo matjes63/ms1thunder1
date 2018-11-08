@@ -1,0 +1,22 @@
+uuid: ff424f70-3c4e-4c70-a23b-35bc0bbcc3b5
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - thunder_base
+_core:
+  default_config_hash: s0iOX8GtlgrwOaM0TxJIbqGyZBmeqsseH-6YRQkfGkg
+id: thunder_base_breadcrumbs
+theme: thunder_base
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

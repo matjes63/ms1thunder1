@@ -1,0 +1,10 @@
+uuid: 41bde11d-0a18-40c1-b76a-82758a8fcb6a
+langcode: en
+status: true
+dependencies:
+  module:
+    - thunder_updater
+id: thunder_updater_update.token
+label: Token
+targetEntityType: thunder_updater_update
+cache: true

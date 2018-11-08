@@ -1,0 +1,35 @@
+uuid: ff5736ce-8077-4137-a66d-e11ae9915e1e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.instagram.field_author
+    - field.field.media.instagram.field_content
+    - field.field.media.instagram.field_url
+    - media_entity.bundle.instagram
+  module:
+    - link
+_core:
+  default_config_hash: aaSO6rt_-L3HAkO8K7cjyS7i8a2XAp8GLMHNqr_97h4
+id: media.instagram.default
+targetEntityType: media
+bundle: instagram
+mode: default
+content:
+  field_url:
+    type: link_default
+    weight: 0
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  field_author: true
+  field_content: true
+  langcode: true
+  moderation_state: true
+  name: true
+  path: true
+  uid: true
